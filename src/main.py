@@ -122,7 +122,7 @@ def main():
     print(f"Test loss: {cost_path_test[-1]}")
     
     ##################
-    #</train the model>
+    #</train the model> 
     ##################
 
     ##########################
@@ -133,7 +133,7 @@ def main():
     mlflow.pytorch.log_model(model, args.registered_model_name)
 
     # saving the model to a file
-    mlflow.pytorch.save_model(model, path=os.path.join('models', args.registered_model_name))
+    mlflow.pytorch.save_model(model, path=args.registered_model_name)
     
     # stop Logging
     mlflow.end_run()
