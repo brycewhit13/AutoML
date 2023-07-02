@@ -25,7 +25,7 @@ The dataset consits of 317 chest X-rays and can be found on [Kaggle](https://www
 
 ### On Azure
 
-To run this in the cloud, simply open up `azure-model-training.ipynb` and run each cell. In the first cell, you will need to enter your own credentials such as subscription id, as I am not providing mine to the public. This will create the azure job and execute it for you. 
+To run this in the cloud, simply open up `azure-model-training.ipynb` and run each cell. In the first cell, you will need to enter your own credentials such as subscription id, as I am not providing mine to the public. This will create the azure job and execute it for you. a pretrained ResNet18 model is used in this case to limit the size and resources needed for this POC project.
 
 ### Locally
 
