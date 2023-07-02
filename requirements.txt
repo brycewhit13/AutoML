@@ -1,0 +1,7 @@
+argparse
+azure-ai-ml
+ipykernel
+mlflow
+pandas
+scikit-learn
+torchvision
