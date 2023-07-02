@@ -133,7 +133,7 @@ def main():
     mlflow.pytorch.log_model(model, args.registered_model_name)
 
     # saving the model to a file
-    mlflow.pytorch.save_model(model, path=args.registered_model_name)
+    mlflow.pytorch.save_model(model, path='latest_model')
     
     # stop Logging
     mlflow.end_run()
